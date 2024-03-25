@@ -6,12 +6,13 @@
     --main-color:#F4D35E;
     --background-secondary: #0D3B66;
     --secondary-color: #F95738;
+    --image-background: #860021;
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "fantasy";
     background-color: var(--background-main);
 }
 
@@ -20,6 +21,7 @@ header {
     justify-content: space-between;
     color: var(--main-color);
     background-color: var(--background-secondary);
+    border-bottom: 4px solid black;
 }
 
 header h1 {
@@ -27,13 +29,32 @@ header h1 {
     font-size: 250%;
 }
 
-nav{ 
+.navigation{ 
     margin:  1.5rem 1rem;
     padding: 1rem;
     font-size: 150%;
 }
 
-nav a{
+.navigation a{
     text-decoration: none;
     color: var(--main-color);
+}
+
+
+
+.main-image img{
+    display: block;
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    background-color: var(--image-background);
+    border-bottom: 2px solid black;
+}
+
+.main-image h2 {
+    position: relative;
+    text-align: right;
+    bottom: 80px;
+    margin: 1rem 3rem;
+    font-size: 250%;
 }
