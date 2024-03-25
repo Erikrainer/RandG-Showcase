@@ -3,19 +3,37 @@
 }
 :root {
     --background-main:  #FAF0CA;
-    --main-color:#0D3B66;
-    --background-secondary: #F4D35E;
+    --main-color:#F4D35E;
+    --background-secondary: #0D3B66;
     --secondary-color: #F95738;
 }
 
 body {
-
     margin: 0;
     padding: 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: var(--background-main);
 }
 
-.main-image {
+header {
+    display: flex;
+    justify-content: space-between;
+    color: var(--main-color);
+    background-color: var(--background-secondary);
+}
 
+header h1 {
+    margin: 1.5rem 1rem;
+    font-size: 250%;
+}
+
+nav{ 
+    margin:  1.5rem 1rem;
+    padding: 1rem;
+    font-size: 150%;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--main-color);
 }
