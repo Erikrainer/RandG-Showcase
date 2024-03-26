@@ -24,6 +24,8 @@ body {
 header {
 
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     color: var(--main-color);
     background-color: var(--background-secondary);
@@ -42,7 +44,9 @@ header h1 {
 
     margin:  1.5rem 1rem;
     padding: 1rem;
-    font-size: 150%;
+    font-size: 200%;
+    word-spacing: 4rem;
+    
 
 }
 
@@ -51,6 +55,11 @@ a{
     text-decoration: none;
     color: var(--main-color);
 
+}
+
+.navigation a:hover {
+    color: var(--secondary-color);
+    cursor: grab;
 }
 
 .main-image img{
@@ -77,85 +86,96 @@ a{
 #about-me {
 
     font-family: "Impact", "fantasy";
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+
 }
 
 #about-me h2{
 
-    font-size: 200%;
     font-family: "Impact", "fantasy";
-    margin: 1rem 20rem;
-    padding: 2rem;
     color: var(--secondary-color);
-    border-right: 4px solid black;
 
 }
 
 #about-me p {
     
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-size: 100%;
-    margin: 2rem 3rem;
-    padding: 1rem;
+    padding: 10% 10%;
+    font-size: 1.5vw;
 
 }
 
-#work {
+.job-container {
+    padding: 10% 10%;
+    font-size: 1.5vw;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: center;
+    border: 3px solid black;
 }
 
+.jobs {
+    
+}
 #work h2{
-    margin: 1rem 20rem;
-    padding: 2rem;
-    border-right: 4px solid black;
+
     color: var(--secondary-color);
     font-family: "Impact", "fantasy";
-    font-size: 200%;
 
-}
-
-#work a {
-    position: absolute;
-    margin: 2rem 3rem;
-    padding: 1rem;
-}
-
-#work span {
-
-    position: relative;
-    margin: 2rem 3rem;
-    padding: 1rem;
-   
-}
-
-.portfolio {
-    margin: 2rem 3rem;
-    padding: 1rem;
 }
 
 #contact-me {
 
-    font-size: 150%;
     font-family: "Impact", "fantasy";
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     color: var(--secondary-color);
 
 }
 
-#contact-me h2 {
-    margin: 1rem 20rem;
-    padding: 2rem;
-    border-right: 4px solid black;
+.links {
+    position: relative;
+    padding: 10% 10%;
+    font-size: 1.5vw;
+    text-decoration:underline dashed;
+    word-spacing: 3rem;
+
 }
 
-.links {
-    margin: 2rem 3rem;
-    padding: 1rem;
-    text-decoration:underline dashed;
+.links a:hover {
+    
+    color: var(--secondary-color);
+    cursor: grab;
+}
+
+
+.whole-page {
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-section {
+
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+
+}
+
+.page-section > h2{
+
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid black;
+    font-size: 3vw;
+    line-height: 1.1;
+
+}
+.page-section > div {
+
+    flex: 0 0 77%;
+
 }
