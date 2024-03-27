@@ -5,6 +5,8 @@
     box-sizing: border-box;
 
 }
+
+/* This configuration bellow its for the color in the page, creating a pattern */
 :root {
 
     --background-main:  #FAF0CA;
@@ -36,6 +38,7 @@ body {
 /* Universal Styles Finish Here */
 
 /* Header Starts Here */
+
 header {
 
     display: flex;
@@ -69,6 +72,7 @@ header h1 {
     color: var(--secondary-color);
     cursor: grab;
 }
+
 /* Header Finish Here */
 
 /* Avatar Image Start Here */
@@ -170,20 +174,37 @@ header h1 {
 }
 
 .job-container a{
-    position: relative;
-    font-size: 2vw;
-    text-decoration-line: underline overline;
-    font-weight: 900;
-    text-align: right;
+
     padding: 1rem 3rem;
     max-width: 50%;
 
 }
+.a-text {
+
+    position: relative;
+    text-decoration-line: underline overline;
+    font-weight: 900;
+    font-size: 2vw;
+    bottom: 80px;
+    left: 70px;
+    
+}
+
+.a-text:hover{
+
+    color: var(--secondary-color);
+    cursor:grab;
+
+}
+
 .job-container a:first-child {
+
     max-width: 100%;
+
 }
 
 .job-image:hover {
+
     outline: none;
     border-color: #9ecaed;
     box-shadow: 0 0 10px #9ecaed;
@@ -191,13 +212,16 @@ header h1 {
 }
 
 .job-image-first:hover {
+
     outline: none;
     border-color: #9ecaed;
     box-shadow: 0 0 10px #9ecaed;
     cursor: grab;
+
 }
 
 .job-image-first{
+
     display: flex;
     min-height: 100%;
     max-width: 100%;
@@ -205,6 +229,7 @@ header h1 {
     border: 5px solid black;
     margin: 1.5rem 0 1.5rem 4rem;
     flex-basis: 100%;
+
 
 }
 
@@ -246,6 +271,7 @@ header h1 {
 }
 
 .links {
+
     position: relative;
     padding: 10% 10%;
     font-size: 1.5vw;
@@ -261,3 +287,15 @@ header h1 {
 }
 
 /* Contact Me section Finish */
+
+/* Media Queeries for a different website size*/
+/* i tested and the smaller screen that i can get still looking decent  */
+@media screen and (max-width: 768px) {
+
+    .job-container a {
+
+        max-width: 100%;
+
+    }
+    
+}
