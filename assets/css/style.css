@@ -131,8 +131,6 @@ header h1 {
 
 .page-section {
 
-    margin: 25px 0;
-    padding: 10px 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -157,7 +155,6 @@ header h1 {
     flex: 0 0 77%;
 
 }
-
 /* Finish here the section changes */
 
 /* Change for the Container that includes the a links in the work section */
@@ -168,32 +165,63 @@ header h1 {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
-    padding: 2% 2%;
-    margin: 0 1% 3% 2%;
-    font-size: 2vw;
+    margin: 0 0 3% 0;
 
 }
-/* TOOOOOOOOOOOOOOOOOOOOOOOOOOOOO AQUIIIIIIIIIIIIII */
+
 .job-container a{
     position: relative;
+    font-size: 2vw;
+    text-decoration-line: underline overline;
+    font-weight: 900;
+    text-align: right;
+    padding: 1rem 3rem;
+    max-width: 50%;
+
+}
+.job-container a:first-child {
+    max-width: 100%;
+}
+
+.job-image:hover {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+    cursor: grab;
+}
+
+.job-image-first:hover {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+    cursor: grab;
+}
+
+.job-image-first{
     display: flex;
-    align-items: flex-end;
-    right: 24px;
+    min-height: 100%;
+    max-width: 100%;
+    flex-basis: 100%;
+    border: 5px solid black;
+    margin: 1.5rem 0 1.5rem 4rem;
+    flex-basis: 100%;
+
+}
+
+.job-image{
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: scale-down;
+    margin: 1.5rem 0 1.5rem 4rem;
+    border: 5px solid black;
 
 }
 
 
-.job-container img{
 
-    position: relative;
-    display: flex;
-    flex-flow: row wrap;
-    flex-direction: flex-end;
-    width: 70%;
-    object-fit: fill;
-    border: 3px solid black;
-
-}
 
 /* Done here the a links included in the work section */
 
