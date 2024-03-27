@@ -4,7 +4,7 @@ We have a even-numbered week, so at this time i don`t have a starter code, so i 
 
 ## Installation
 
-https://erikrainer.github.io/module-2-challenge/ (Deployed Website)
+https://erikrainer.github.io/erikrainer-showcase/ (Deployed Website)
 
 ## Usage
 
