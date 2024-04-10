@@ -6,7 +6,10 @@ We have a even-numbered week, so at this time i don`t have a starter code, so i 
 
 https://erikrainer.github.io/erikrainer-showcase/ (Deployed Website)
 
-![Erik Gontijo Showcase](https://github.com/Erikrainer/erikrainer-showcase/assets/160955635/1d6f4971-953c-4d86-aa46-ebb1befe7985)
+![Showcase (1)](https://github.com/Erikrainer/erikrainer-showcase/assets/160955635/e4bcdd9e-9fa1-4669-abb4-550977b3aa42)
+
+
+![Screenshot 2024-04-09 173235](https://github.com/Erikrainer/erikrainer-showcase/assets/160955635/7c2e705e-c9dc-4035-af54-16ac1dfa2926)
 
 ## Usage
 
