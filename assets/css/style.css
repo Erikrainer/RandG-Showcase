@@ -165,10 +165,8 @@ header h1 {
 
 .job-container {
 
-    position: relative;
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
     margin: 0 0 3% 0;
 
 }
@@ -223,20 +221,17 @@ header h1 {
 .job-image-first{
 
     display: flex;
-    min-height: 100%;
-    max-width: 100%;
-    flex-basis: 100%;
     border: 5px solid black;
     margin: 1.5rem 0 1.5rem 4rem;
     flex-basis: 100%;
-
+    width: 170%;
+    height: auto;
 
 }
 
 .job-image{
 
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-block;
     max-width: 100%;
     max-height: 100%;
     object-fit: scale-down;
@@ -291,7 +286,9 @@ header h1 {
 /* Media Queeries for a different website size*/
 /* i tested and the smaller screen that i can get still looking decent  */
 @media screen and (max-width: 768px) {
-
+    *{
+        font-size: 3vw;
+    }
     .job-container a {
 
         max-width: 100%;
