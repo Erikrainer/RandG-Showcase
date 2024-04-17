@@ -172,13 +172,12 @@ header h1 {
 }
 
 .job-container a{
-
+    color:#FFD700;
     padding: 1rem 3rem;
     max-width: 50%;
 
 }
 .a-text {
-
     position: relative;
     text-decoration-line: underline overline;
     font-weight: 900;
