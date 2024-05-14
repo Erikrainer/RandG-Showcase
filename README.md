@@ -22,7 +22,7 @@ We have a even-numbered week, so at this time i don`t have a starter code, so i 
 
 ## Installations  💻
 
-Deployed link: https://erikrainer.github.io/erikrainer-showcase/
+Deployed link: https://erikrainer.github.io/RandG-Showcase/
 
 To install dependencies, run these commands:
 
