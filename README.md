@@ -45,6 +45,10 @@ To install dependencies, run these commands:
 
 ## Contributors 😃
 
+<a href="https://github.com/Erikrainer/RandG-Showcase/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Erikrainer/RandG-Showcase" />
+</a>
+
 Erikrainer
 
 ## Tests 🧪
